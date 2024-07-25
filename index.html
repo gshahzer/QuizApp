@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Trivia Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+        #quiz-container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+        }
+        button {
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 16px;
+        }
+        #question {
+            margin: 20px 0;
+        }
+        .answer {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div id="quiz-container">
+    <h1>Random Trivia Quiz</h1>
+    <div id="question">
+        <p>Click "Get Question" to start!</p>
+    </div>
+    <div id="answers">
+        <!-- Answer buttons will be populated here -->
+    </div>
+    <button id="get-question-btn">Get Question</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
